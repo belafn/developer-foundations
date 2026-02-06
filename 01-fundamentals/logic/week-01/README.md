@@ -25,7 +25,7 @@ Técnicas básicas de debugging, incluindo inspeção de valores, acompanhamento
 
 Todos os arquivos deste diretório foram criados com fins educacionais e representam o progresso gradual ao longo da minha primeira semana de estudos.
 
-===========================================================================================
+=====================================================================================
 
 # Week 01 — JavaScript Fundamentals
 

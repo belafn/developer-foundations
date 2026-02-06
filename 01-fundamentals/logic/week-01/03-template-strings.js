@@ -107,20 +107,82 @@ console.log(multilineText);
 // 07- Uso de lógica simples em template strings
 //=========================================================================================
 // É possível usar operadores e expressões condicionais simples.
+
 let isAdmin = true;
 
 let accessMessage = `Access: ${isAdmin ? "Allowed" : "Denied"}`;
 console.log(accessMessage);
 
 //=========================================================================================
+// 08- Propriedade length
+//=========================================================================================
+// A propriedade length retorna a quantidade de caracteres da string.
+
+let language = "JavaScript";
+console.log(language.length); // 10
+
+//=========================================================================================
+// 09- Acesso a caracteres (indexação)
+//=========================================================================================
+// Strings possuem índices baseados em zero.
+// É possível acessar caracteres usando colchetes [].
+
+console.log(language[0]); // J
+console.log(language[4]); // S
+
+//=========================================================================================
+// 10- Caracteres de escape
+//=========================================================================================
+// Caracteres de escape permitem representar símbolos especiais em strings.
+
+let text = "She said: \"JavaScript is awesome!\"";
+console.log(text);
+
+// \n -> nova linha
+// \t -> tabulação
+
+let escapedText = "Line 1\nLine 2";
+console.log(escapedText);
+
+//=========================================================================================
+// 11- Métodos comuns de strings
+//=========================================================================================
+
+let course = " JavaScript Basics ";
+
+// toUpperCase() e toLowerCase()
+console.log(course.toUpperCase());
+console.log(course.toLowerCase());
+
+// trim() remove espaços extras no início e no fim
+console.log(course.trim());
+
+// includes() verifica se um texto existe dentro da string
+console.log(course.includes("Basics")); // true
+
+// slice() extrai parte da string
+console.log(course.slice(1, 11)); // JavaScript
+
+// replace() substitui parte do texto
+console.log(course.replace("Basics", "Fundamentals"));
+
+//=========================================================================================
+// 12- Comparação de strings
+//=========================================================================================
+// Strings podem ser comparadas usando operadores relacionais.
+
+let x = "apple";
+let y = "banana";
+
+console.log(x === "apple"); // true
+console.log(x > y); // false (ordem alfabética)
+
+//=========================================================================================
 // CONCLUSÕES
 //=========================================================================================
-// - Template strings usam crase (`)
-// - Permitem interpolação com ${}
-// - Facilitam o uso de variáveis e expressões dentro do texto
-// - Suportam strings multilinha de forma simples
-// - Melhoram a legibilidade do código
-//
-// Concatenação tradicional ainda é válida em casos simples,
-// mas template strings são preferíveis em textos mais complexos.
+// - Strings são imutáveis
+// - Podem ser criadas com aspas simples, duplas ou crase
+// - Template strings facilitam interpolação e multilinhas
+// - Métodos ajudam a manipular e analisar textos
+// - São amplamente usadas para exibição de mensagens e dados textuais
 
