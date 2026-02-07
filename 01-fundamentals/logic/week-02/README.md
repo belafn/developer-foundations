@@ -19,7 +19,7 @@ Esta semana é focada em fluxo de controle e tomada de decisões em JavaScript.
 As práticas de depuração são aplicadas ao longo dos exercícios utilizando `console.log`
 e raciocínio passo a passo
 
-=====================================================================================
+======================================================================================
 
 # Week 02 — JavaScript Fundamentals (Part II)
 
