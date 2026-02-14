@@ -82,7 +82,6 @@ if (hasApple) {
     console.log("There is no apple in this array");
 }
 
-
 //=========================================================================================
 // 05- String Validation
 //=========================================================================================
@@ -109,39 +108,87 @@ if (hasAtSymbol && hasDot ) {
 //=========================================================================================
 
 // Create an array of numbers.
+
+let numbers2 = [1, 2, 3, 4, 5, 6]; 
+
 // Create a new array containing the double of each number.
 
+let doubleNum = numbers2.map(function (number) {
+    return number * 2;
+});
+console.log(doubleNum);
 
 //=========================================================================================
 // 07- Counting Elements
 //=========================================================================================
 
 // Create an array of numbers.
+
+let numbers3 = [3, 7, 13, 17, 19]; 
+
 // Count how many numbers are greater than 10.
+     
+let greaterThan10 = numbers3.filter ((number) => number > 10);
+console.log(greaterThan10);
+
 // Print the total.
 
+console.log(greaterThan10.length);
 
 //=========================================================================================
 // 08- Remove Specific Value
 //=========================================================================================
 
 // Create an array of colors.
+
+let colors = ["rosa", "azul", "amarelo", "vermelho", "roxo"];
+
 // Remove a specific color from the array (without creating a new array).
 
+colors.splice(3, 1);
+console.log(colors);
 
 //=========================================================================================
 // 09- Word Counter
 //=========================================================================================
 
 // Create a sentence.
+
+let sentence = "I love JavaScript"
+
 // Count how many words it contains.
 
+console.log(sentence.length);
 
 //=========================================================================================
 // 10- Mini Challenge
 //=========================================================================================
 
 // Create an array of student grades.
+
+let grades = [3, 5, 7, 7, 8, 8, 9, 10, 4]
+
 // Calculate the average grade.
+
+let sum = grades.reduce (function(acumulador, valorAtual){
+    return acumulador + valorAtual; 
+}, 0);
+
+let averageGrade = sum / grades.length;
+
+console.log("Soma total:", sum);
+console.log("Média da turma:", averageGrade.toFixed(2));
+//toFixed arredonda um numero dizimal para duas casas decimais 
+//após a vírgula.
+
 // Print whether the class is approved or not
 // (consider 7 as the minimum passing grade).
+
+if ( averageGrade >= 7){
+    console.log("The class is aproved");
+} else {
+    console.log("The class is not aproved")
+};
+
+
+
