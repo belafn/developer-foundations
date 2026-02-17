@@ -98,4 +98,4 @@ calculateTotal();
 // - Evitam repetição
 // - Melhoram legibilidade
 // - Devem ter nomes claros e objetivos
-// - Só executam quando chamadas
+// - Só executam quando chamadas.
