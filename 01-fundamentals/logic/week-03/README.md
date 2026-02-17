@@ -26,7 +26,7 @@ Os exercícios práticos focam na fixação de conceitos isolados, enquanto as s
 exploram cenários mais próximos de problemas reais, exigindo a combinação de diferentes
 estruturas e raciocínio lógico.
 
-======================================================================================
+---
 
 # Week 03 — JavaScript Fundamentals (Part III)
 
