@@ -164,7 +164,6 @@ console.log(company)
 //
 // Implemente abaixo:
 
-console.log("Desafio2");
 
 // 1. Acesse o nome do primeiro funcionário de Engineering
 
