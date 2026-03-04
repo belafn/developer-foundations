@@ -2,8 +2,6 @@
    ADVANCED FUNCTIONS - FUNÇÕES AVANÇADAS
 ================================================================================================= */
 
-const { createElement } = require("react");
-
 /*
 OBJETIVO:
 Aprofundar conceitos de funções em JavaScript moderno (ES6+), incluindo:
@@ -220,7 +218,7 @@ console.log("Impure (estado externo):", totalSales);
 3. Explique (em comentário) por que createMultiplier é um exemplo de closure.
 */
 
-// SOLUÇÃO:
+// RESOLUÇÃO:
 
 const createMultiplier = (factor) => {
    return(number) => number * factor;
